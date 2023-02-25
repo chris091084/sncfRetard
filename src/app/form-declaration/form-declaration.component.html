@@ -1,1 +1,52 @@
-
+<div class="container">
+  <form [formGroup]="formDeclaration" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="date"> Date </label>
+      <input
+        id="date"
+        class="form-control"
+        type="text"
+        formControlName="date"
+      />
+    </div>
+    <div class="form-group">
+      <label for="station"> Gare </label>
+      <input
+        id="station"
+        class="form-control"
+        type="text"
+        formControlName="station"
+      />
+    </div>
+    <div class="form-group">
+      <label for="trainNumber"> Numéro du train </label>
+      <input
+        id="trainNumber"
+        class="form-control"
+        type="text"
+        formControlName="trainNumber"
+      />
+    </div>
+    <div class="form-group">
+      <label for="problem"> Incident </label>
+      <input
+        id="problem"
+        class="form-control"
+        type="text"
+        formControlName="problem"
+      />
+    </div>
+    <div class="form-group">
+      <label for="comment"> Divers </label>
+      <textarea
+        id="comment"
+        class="form-control"
+        type="text"
+        formControlName="comment"
+      ></textarea>
+    </div>
+    <div class="mt-4">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
