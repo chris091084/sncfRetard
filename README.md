@@ -1,5 +1,7 @@
 # SncfRetard
 
+_Licence MIT_
+
 This application allows you to recover all train problems such as delay, cancellation ...
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
