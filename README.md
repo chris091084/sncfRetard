@@ -27,3 +27,9 @@ If it's your first time you have to run this:
 Then
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## 4. Library
+
+Templating: bootstrap@5.2.3
+
+Form building: ReactiveFormsModule
