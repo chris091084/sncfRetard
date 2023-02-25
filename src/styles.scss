@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+// Importer les fichiers Bootstrap nécessaires
+
+.btn-primary {
+  background-color: #0088ce !important;
+  border-color: #0088ce !important;
+}
+
+@import "bootstrap/scss/bootstrap";
